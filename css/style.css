@@ -1,0 +1,155 @@
+/* lato-regular - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/lato-v23-latin-regular.woff2") format("woff2"), url("../fonts/lato-v23-latin-regular.woff") format("woff");
+}
+
+/* lato-700 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/lato-v23-latin-700.woff2") format("woff2"), url("../fonts/lato-v23-latin-700.woff") format("woff");
+}
+
+/* georama-regular - latin */
+@font-face {
+  font-family: "Georama";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/georama-v7-latin-regular.woff2") format("woff2"), url("../fonts/georama-v7-latin-regular.woff") format("woff");
+}
+
+/* georama-700 - latin */
+@font-face {
+  font-family: "Georama";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/georama-v7-latin-700.woff2") format("woff2"), url("../fonts/georama-v7-latin-700.woff") format("woff");
+}
+
+.wrappwer-content {
+  max-width: 1151px;
+  margin: 0 auto;
+}
+
+.wrapper-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 85px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper-nav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 557px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrapper-nav nav a {
+  color: #01996D;
+  font-family: "lato";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #292929;
+  text-decoration: none;
+}
+
+.wrapper-nav nav a:hover {
+  cursor: pointer;
+}
+
+.wrapper-nav .logo {
+  width: 80px;
+  height: 23px;
+}
+
+.wrapper-nav .wrapper-authorization {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 51px;
+  width: 277px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper-nav .wrapper-authorization a:first-child {
+  text-decoration: none;
+  color: #292929;
+  font-size: 20px;
+}
+
+.button-call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 183px;
+  height: 51px;
+  padding: 13px, 50px, 13px, 50px;
+  background-color: #01996D;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.wrapper-h {
+  background: url("/image/radu-florin-CwTBt6jyagQ-unsplash1.png") no-repeat;
+  height: 90vh;
+}
+
+.wrapper-h .wrappwer-content .header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 440px;
+  padding-top: 175px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper-h .wrappwer-content .header-title h1 {
+  color: #01996D;
+  font-family: Georgia;
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 41px;
+}
+
+.wrapper-h .wrappwer-content .header-title p {
+  font-family: lato;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 61px;
+}
+/*# sourceMappingURL=style.css.map */

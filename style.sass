@@ -29,8 +29,9 @@
 
 $rifle_green: #01996D
 $black: #292929
+$text_color: #424242
 
-.wrappwer-content
+.container
   max-width: 1151px
   margin: 0 auto
 
@@ -41,7 +42,8 @@ $black: #292929
   align-items: center
   nav
     display: flex
-    width: 557px
+    width: 100%
+    max-width: 557px
     justify-content: space-around
     a
       color: $rifle_green
@@ -84,8 +86,8 @@ $black: #292929
 
 .wrapper-h
   background: url("/image/radu-florin-CwTBt6jyagQ-unsplash1.png") no-repeat
-  height: 90vh
-  .wrappwer-content
+  height: 895px
+  .container
     .header-title
       display: flex
       max-width: 440px
@@ -94,9 +96,6 @@ $black: #292929
       justify-content: space-between
 
       h1
-        color: $rifle_green
-        font-family: Georgia
-        font-weight: 700
         font-size: 65px
         margin-bottom: 41px
       p
@@ -104,3 +103,44 @@ $black: #292929
         font-weight: 400
         font-size: 20px
         margin-bottom: 61px
+        line-height: 1.6
+
+.heading
+  font-family: Georgia
+  font-weight: 700
+  font-size: 50px
+  color: $rifle_green
+
+.stages_of_work
+  .question
+    font-family: lato
+    font-size: 24px
+    font-weight: 400
+    line-height: 1.6
+    width: 100%
+    margin: 160px 0 0
+  .cards
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    .card
+      p
+        font-size: 20px
+        font-family: lato
+        font-weight: 500
+        line-height: 1.5
+        color: $text_color
+
+.heading__description
+  display: grid
+  grid-template-columns: 1fr 1fr
+  gap: 35px
+  align-items: center
+  p
+    font-size: 20px
+    font-family: lato
+    font-weight: 500
+    line-height: 1.5
+    color: $text_color
+  h2
+    width: 584px
+    line-height: 1.6
